@@ -1,0 +1,41 @@
+# KiCad temporary files
+*.bak
+*.bck
+*-backups/
+*-cache.lib
+*.kicad_pcb-bak
+*.sch-bak
+~*.sch
+*.000
+*.kicad_prl
+
+# KiCad auto-generated files
+fp-info-cache
+*.kicad_sch-bak
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# Gerber and manufacturing output
+gerber/
+*-gerbers.zip
+
+# BOM temporary files
+*.tmp
+*.csv~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build outputs
+*.zip
+build/
+output/
+
+# Logs
+*.log
