@@ -26,6 +26,7 @@ Each board provides fused power distribution with appropriate protection and cur
 │   ├── 12V-BOM.csv
 │   └── 5V-BOM.csv
 ├── libraries/          # Custom component libraries
+│   ├── symbols/       # Custom KiCad symbols
 │   ├── footprints/    # Custom KiCad footprints
 │   └── 3d-models/     # 3D models for components
 └── docs/              # Documentation
@@ -52,10 +53,12 @@ cd Fuse-Power-Distribution-Board
 
 ### Setting Up Custom Libraries
 1. Open KiCad
-2. Go to **Preferences → Manage Footprint Libraries**
-3. Add the `libraries/footprints/` directory
-4. Go to **Preferences → Configure Paths**
-5. Set up path variables for `libraries/3d-models/`
+2. Go to **Preferences → Manage Symbol Libraries**
+3. Add the `libraries/symbols/` directory
+4. Go to **Preferences → Manage Footprint Libraries**
+5. Add the `libraries/footprints/` directory
+6. Go to **Preferences → Configure Paths**
+7. Set up path variables for `libraries/3d-models/`
 
 ## Bill of Materials (BOMs)
 

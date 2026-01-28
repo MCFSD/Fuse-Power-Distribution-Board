@@ -87,12 +87,12 @@ Then create a Pull Request on GitHub.
 - Verify component footprints before use
 
 ### Library Components
-When adding custom footprints or 3D models:
+When adding custom symbols, footprints, or 3D models:
 - Follow KiCad Library Convention (KLC)
 - Use descriptive names
 - Include proper documentation
 - Test with actual components if possible
-- Add to appropriate library directory
+- Add to appropriate library directory (symbols/, footprints/, or 3d-models/)
 
 ## Code Review Process
 
@@ -134,7 +134,7 @@ git push origin 48V-v1.0.0
 - `.kicad_pcb` - PCB layout files
 - `.csv` - BOM files
 - `.md` - Documentation
-- Custom libraries (footprints, symbols)
+- Custom libraries (symbols, footprints)
 - 3D models (if reasonable size)
 
 ### What NOT to Commit

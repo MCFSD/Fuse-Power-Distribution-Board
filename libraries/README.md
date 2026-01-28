@@ -4,6 +4,9 @@ This directory contains custom libraries for the Fuse Power Distribution Board p
 
 ## Subdirectories
 
+### symbols/
+Custom KiCad symbol libraries for components used in the boards. These are schematic symbols specific to this project and may not be available in the standard KiCad libraries.
+
 ### footprints/
 Custom KiCad footprints for components used in the boards. These footprints are specific to this project and may not be available in the standard KiCad libraries.
 
@@ -14,10 +17,12 @@ Custom KiCad footprints for components used in the boards. These footprints are 
 
 ### In KiCad 9.0+
 1. Open KiCad project
-2. Go to Preferences → Manage Footprint Libraries
-3. Add the footprints directory as a library path
-4. Go to Preferences → Configure Paths
-5. Set up path variables for 3D models directory
+2. Go to Preferences → Manage Symbol Libraries
+3. Add the symbols directory as a library path
+4. Go to Preferences → Manage Footprint Libraries
+5. Add the footprints directory as a library path
+6. Go to Preferences → Configure Paths
+7. Set up path variables for 3D models directory
 
 ## Library Organization
 - Use descriptive names for footprints and models

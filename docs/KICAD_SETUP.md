@@ -22,9 +22,9 @@ This guide explains how to create and set up KiCad projects for the Fuse Power D
 4. Set appropriate trace widths for current requirements
 
 ### Step 3: Set Up Libraries
-1. **Symbol Libraries**: Use standard KiCad libraries plus custom symbols
-2. **Footprint Libraries**: Add path to `libraries/footprints/`
-3. **3D Models**: Configure path to `libraries/3d-models/`
+1. **Symbol Libraries**: Use standard KiCad libraries. Custom symbols specific to this project should be stored in `libraries/symbols/`
+2. **Footprint Libraries**: Add path to `libraries/footprints/` for custom footprints
+3. **3D Models**: Configure path to `libraries/3d-models/` for component 3D models
 
 ### Step 4: Schematic Design
 1. Create hierarchical sheets if needed
