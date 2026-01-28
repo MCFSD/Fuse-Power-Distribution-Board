@@ -6,9 +6,6 @@ This directory contains the KiCad project files for the 12V fuse power distribut
 ## Current Version
 Version: 1.0.0 (Initial)
 
-## Current Version
-Version: 1.0.0 (Initial)
-
 ## Files
 - **12V-FusePowerDistribution.kicad_pro** - KiCad project file
 - **12V-FusePowerDistribution.kicad_sch** - Schematic file

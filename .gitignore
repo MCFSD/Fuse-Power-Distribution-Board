@@ -11,7 +11,6 @@
 
 # KiCad auto-generated files
 fp-info-cache
-*.kicad_pcb-bak
 *.kicad_sch-bak
 *-save.kicad_pcb
 *-save.kicad_sch
